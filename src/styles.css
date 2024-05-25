@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-top: 77px;
+  height: 550px;
+  width: 60vh;
+  box-shadow: 10px 10px 10px 5px rgb(44, 58, 130);
+}
+
+.upperdata {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 50%;
+}
+
+.upperdata img {
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+}
+
+.weather-data {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.location {
+  color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+}
+.temp {
+  color: #fff;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.more-info-label {
+  color: #121111;
+}
+.more-info-container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.info-block {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-block-label img {
+  width: 60px;
+  height: auto;
+}
+.info-block-label-1 img {
+  width: 34px;
+}
+.info-block-value {
+  margin-top: 0.5em;
+}
+
+span {
+  margin-top: 1px;
+  font-size: 15px;
+}
+.more-info-label {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
